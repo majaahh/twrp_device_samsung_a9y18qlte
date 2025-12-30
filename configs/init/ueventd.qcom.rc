@@ -49,19 +49,19 @@
 /dev/rmnet_ctrl           0660   usb        usb
 /dev/dpl_ctrl             0660   usb        usb
 
-#permissions for CSVT
+# Permissions for CSVT
 /dev/smd11                0660   radio      radio
 
-#permissions for MTP and SideSync
+# Permissions for MTP and SideSync
 /dev/usb_mtp_gadget	  0660	 system	    mtp
 /dev/android_ssusbcon	  0660	 system	    system
 
-#permsissions for BT/FM
+# Permsissions for BT/FM
 /dev/smd2                 0660   bluetooth  bluetooth
 /dev/smd3                 0660   bluetooth  bluetooth
 /dev/btpower              0660   bluetooth  system
 
-#permissions for pta
+# Permissions for pta
 /dev/pta                  0660   system     system
 
 /dev/radio0               0640   system     system
@@ -157,7 +157,7 @@
 /dev/hw_random            0600   root       root
 /dev/sdsprpc-smd          0660   system     system
 
-#permissions for audio
+# permissions for audio
 /dev/wcd_dsp0_control     0660   system     audio
 /dev/wcd-dsp-glink        0660   system     audio
 /dev/audio_slimslave      0660   system     audio
@@ -290,7 +290,7 @@
 # Fingerprint device
 /dev/qbt1000              0660   system     system
 
-#ImproveTouch device
+# ImproveTouch device
 /dev/hbtp_input           0660   system     system
 /dev/hbtp_vm              0660   system     system
 

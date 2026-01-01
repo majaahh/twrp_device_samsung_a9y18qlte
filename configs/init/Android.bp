@@ -1,0 +1,37 @@
+//
+// Copyright (C) The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.recovery.qcom.rc",
+    src: "init.recovery.qcom.rc",
+    sub_dir: "init",
+    recovery: true,
+}
+
+prebuilt_etc {
+    name: "init.recovery.usb.rc",
+    src: "init.recovery.usb.rc",
+    sub_dir: "init",
+    recovery: true,
+}
+
+prebuilt_etc {
+    name: "recovery.fstab",
+    src: "recovery.fstab",
+    recovery: true,
+}
+
+prebuilt_etc {
+    name: "twrp.fstab",
+    src: "twrp.fstab",
+    recovery: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.qcom.rc",
+    src: "ueventd.qcom.rc",
+    sub_dir: "init",
+    recovery: true,
+}
